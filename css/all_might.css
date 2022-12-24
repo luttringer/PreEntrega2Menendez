@@ -130,8 +130,22 @@ header>nav ul li a:hover
     margin-top: 10px;
 }
 
-@media (max-width:375px)
+@media (max-width:800px)
 {
-    
-}
+    #footer_secion
+    {
+        height: 30vh;
+    }
 
+    #footer_secion>div img 
+    {
+        width: 25px;
+        height: 25px;
+    }
+
+    #footer_secion>div p 
+    {
+        font-size: 0.5rem;
+        font-weight: 700;
+    }
+}
