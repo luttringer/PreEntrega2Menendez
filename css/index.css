@@ -7,39 +7,30 @@ header>nav>ul li:nth-child(1)
 }
 
 /*CSS seccion de presentacion*/
-/*.presentation_sec
+.presentation_sec
 {
-    /*width: 90%;
-    height: 400px;
-    
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin: 30px 5% 30px 5%;
-    column-gap: 45px;
+    margin-top: 30px;
 }
 
-.presentation_sec div:nth-of-type(2)
+.presentation_sec .row div:nth-of-type(2)
 {
     border: 1px solid #E8E8E8;
 }
 
-.presentation_sec div h2
+.presentation_sec .row div h2
 {
     font-size: 1.3rem;
     font-weight: 100;
 }
 
-.presentation_sec div p
+.presentation_sec .row div p
 {
     margin-top: 30px;
     font-size: 0.8rem;
     font-weight: 300;
     letter-spacing: 0.5px;
     word-spacing: 6px;
-}*/
-
+}
 
 
 /*CSS articulos */
@@ -53,15 +44,7 @@ header>nav>ul li:nth-child(1)
 
 .services_sec
 {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 40%);
-    grid-template-rows: repeat(2, 40%);
     margin-top: 30px;
-    justify-content: space-around;
-    align-content: space-around;
-    row-gap: 60px;
-    position: relative;
 }
 
 .services_sec article h3
@@ -90,6 +73,8 @@ header>nav>ul li:nth-child(1)
 
 
 
+
+
 /* CSS imagen publicidad*/
 .banner_publicidad
 {
@@ -99,4 +84,17 @@ header>nav>ul li:nth-child(1)
     margin: 55px 0 55px 5vw;
     background:#E8E8E8;
     height: 15vw;
+}
+
+@media (max-width:991px)
+{
+    .presentation_sec .row div:nth-of-type(2)
+    {
+        height: 300px;
+    }
+
+    .services_sec .row 
+    {
+        margin: 30px 0 30px 0;
+    }
 }

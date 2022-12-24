@@ -74,24 +74,20 @@ header>nav ul li a:hover
 /*CSS banner inmediato a menu inicio*/
 .banner_top
 {
-    width: 100%;
     height: 30vh;
     border-bottom: 1px solid #F0F0F0;
-    display: grid;
-    position: relative;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr;
 }
 
-.banner_top>div:nth-child(1)
+.banner_top .row>div:nth-child(1)
 {
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
     border-right: 1px solid #F0F0F0;
 }
 
-.banner_top>div:nth-child(1) h1 
+.banner_top .row>div:nth-child(1) h1 
 {
     font-size: 1rem;
     font-weight: 300;
@@ -134,11 +130,8 @@ header>nav ul li a:hover
     margin-top: 10px;
 }
 
-@media (max-width:600px)
+@media (max-width:375px)
 {
-    *
-    {
-        display: none;
-    }
+    
 }
 
