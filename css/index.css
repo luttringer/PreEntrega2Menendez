@@ -6,14 +6,14 @@ header>nav>ul li:nth-child(1)
     font-weight: 600;
 }
 
-
 /*CSS seccion de presentacion*/
-.presentation_sec
+/*.presentation_sec
 {
-    width: 90%;
+    /*width: 90%;
     height: 400px;
-    display: grid;
+    
     position: relative;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     margin: 30px 5% 30px 5%;
@@ -38,7 +38,7 @@ header>nav>ul li:nth-child(1)
     font-weight: 300;
     letter-spacing: 0.5px;
     word-spacing: 6px;
-}
+}*/
 
 
 
@@ -64,21 +64,21 @@ header>nav>ul li:nth-child(1)
     position: relative;
 }
 
-.services_sec article h3 
+.services_sec article h3
 {
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 15px;
 }
 
-.services_sec article p 
+.services_sec article p
 {
     font-size: 1rem;
     font-weight: 200;
     padding-left: 30px;
 }
 
-.services_sec article button 
+.services_sec article button
 {
     width: 130px;
     height: 30px;
