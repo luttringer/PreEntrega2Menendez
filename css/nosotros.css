@@ -1,0 +1,53 @@
+/*CSS nuestro equipo*/
+.grid_our_team
+{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,20vw);
+    grid-template-rows: repeat(2,30vwvw);
+    justify-content: space-around;
+    align-content: center;
+    row-gap: 30px;
+}
+
+.grid_our_team div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.grid_our_team div>img
+{
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+}
+
+.grid_our_team div>h3 
+{
+    margin-top: 20px;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.grid_our_team div>h4
+{
+    margin: 10px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.grid_our_team div>p 
+{
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: left;
+}

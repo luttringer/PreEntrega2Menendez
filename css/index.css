@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+
+
+/*CSS seccion de presentacion*/
+.presentation_sec
+{
+    width: 90%;
+    height: 400px;
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 30px 5% 30px 5%;
+    column-gap: 45px;
+}
+
+.presentation_sec div:nth-of-type(2)
+{
+    border: 1px solid #E8E8E8;
+}
+
+.presentation_sec div h2
+{
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.presentation_sec div p
+{
+    margin-top: 30px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    word-spacing: 6px;
+}
+
+
+
+/*CSS articulos */
+.submenu_articulos
+{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.services_sec
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: repeat(2, 40%);
+    margin-top: 30px;
+    justify-content: space-around;
+    align-content: space-around;
+    row-gap: 60px;
+    position: relative;
+}
+
+.services_sec article h3 
+{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services_sec article p 
+{
+    font-size: 1rem;
+    font-weight: 200;
+    padding-left: 30px;
+}
+
+.services_sec article button 
+{
+    width: 130px;
+    height: 30px;
+    border: none;
+    float: right;
+    color: white;
+    background-color: #00ACE2;
+}
+
+
+
+/* CSS imagen publicidad*/
+.banner_publicidad
+{
+    position: relative;
+    display: block;
+    width: 90vw;
+    margin: 55px 0 55px 5vw;
+    background:#E8E8E8;
+    height: 15vw;
+}

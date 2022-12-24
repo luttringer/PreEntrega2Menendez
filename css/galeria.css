@@ -1,0 +1,21 @@
+/*CSS galeria*/
+.gallery
+{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 25vw);
+    grid-template-rows: repeat(4, 25vw);
+    grid-gap: 3px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+}
+
+.gallery>img 
+{
+    width: 25vw;
+    height: 25vw;
+    border: 1px solid #C8C8C8;
+}
