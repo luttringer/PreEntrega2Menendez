@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/all_might.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image/x-icon" href="images/logo/29b08f305773d53ee8eaaa0708ae2dea.ico"/>
     <script src="javascript/menu.js"></script>
     <title>CHRISTIAN WEBSITE</title>
 </head>
 <body>
     <!--menu de navegacion-->
-    <img class="menu_mobile" src="images/menu_mobile/menus.png" onclick="show_menu();">
-    <header>
+    <img data-aos="fade-down" data-aos-duration="500" class="menu_mobile" src="images/menu_mobile/menus.png" onclick="show_menu();">
+    <header data-aos="fade-down" data-aos-duration="500">
         <img class="logo" alt="">
         <nav id="menu">
             <ul>
@@ -41,7 +44,7 @@
         </section>
 
         <!--seccion de presentacion, texto izquierda imagen a la derecha-->
-        <section class="presentation_sec container">
+        <section class="presentation_sec container" data-aos="fade-up" data-aos-duration="3000">
             <div class="row">
                 <div class="col-lg-6 col-md-12"> 
                     <h2 class="subtitle">Origenes del Jazz y el Blues.</h2>
@@ -52,7 +55,7 @@
         </section>
 
         <!--seccion de contenido variado, breve texto con opcion a ver mas-->
-        <section class="services_sec container">
+        <section class="services_sec container" data-aos="fade-up" data-aos-duration="3000">
             <h2 class="subtitle">Canciones memorables del ahora.</h2>
 
             <div class="row">
@@ -75,7 +78,7 @@
                         Well, I know there can come fire from the sky to refine the purest of kings
                         Even though, I know this fire brings me pain
                         Even so, Lord just the same</p>
-                    <a href="https://www.youtube.com/watch?v=hD5hIqeKNVE" target="_blank"><button>escúchalo</button></a>
+                    <a href="https://www.youtube.com/watch?v=hD5hIqeKNVE" target="_blank"><button class="shadow-drop-2-center">escúchalo</button></a>
                 </article>
             </div>
             
@@ -85,7 +88,7 @@
                     <p>You know it's a shame when a woman
                         Spends all the time alone
                         When I am perfectly willing
-                        To give her everything she needs</p>
+                        To give her everything she needs<br><br></p>
                         <a href="https://www.youtube.com/watch?v=fgXaKe8Lsyc" target="_blank"><button>escúchalo</button></a>
                 </article>
     
@@ -101,12 +104,12 @@
         </section>
 
         <!--banner secundario, puede ir imagen opcional-->
-        <img class="banner_publicidad" alt="">
+        <img class="banner_publicidad" alt="" data-aos="fade-up" data-aos-duration="3000">
     </main>
 
     <!--footer-->
-    <h2 class="subtitle">CONTÁCTENOS</h2>
-    <footer id="footer_secion">
+    <h2 class="subtitle" data-aos="fade-down" data-aos-duration="500">CONTÁCTENOS</h2>
+    <footer id="footer_secion" data-aos="fade-down" data-aos-duration="500">
         <div>
             <img src="images/icons_contact/whatsapp.png">
             <img src="images/icons_contact/instagram.png">
@@ -118,5 +121,10 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
