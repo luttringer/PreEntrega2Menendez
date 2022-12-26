@@ -10,12 +10,16 @@ header>nav>ul li:nth-child(1)
 /*CSS seccion de presentacion*/
 .presentation_sec
 {
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .presentation_sec .row div:nth-of-type(2)
 {
     border: 1px solid #E8E8E8;
+    background-image: url("https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1919/https://www.musicalortiz.com/wp-content/uploads/2021/04/Origen-del-jazz.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .presentation_sec .row div h2
@@ -72,6 +76,11 @@ header>nav>ul li:nth-child(1)
     background-color: #00ACE2;
 }
 
+.services_sec .row 
+{
+    margin-bottom: 50px;
+}
+
 /* CSS imagen publicidad*/
 .banner_publicidad
 {
@@ -79,8 +88,11 @@ header>nav>ul li:nth-child(1)
     display: block;
     width: 90vw;
     margin: 55px 0 55px 5vw;
-    background:#E8E8E8;
     height: 15vw;
+    background-image: url("../images/banner_inicio/jazz-gc4a717b77_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 @media (max-width:800px)

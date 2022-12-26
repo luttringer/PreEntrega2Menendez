@@ -124,7 +124,6 @@ header>nav ul li a:hover
 {
     width: 100%;
     height: 25vw;
-    border:1px solid #E8E8E8;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -144,7 +143,7 @@ header>nav ul li a:hover
 {
     font-size: 1.2rem;
     font-weight: 500;
-    margin-top: 10px;
+    margin-top: 30px;
     color: #E6E6E6;
 }
 
@@ -166,7 +165,6 @@ header>nav ul li a:hover
         font-size: 0.7rem;
         font-weight: 700;
         text-align: center;
-        margin-top: 30px;
     }
 
     .banner_top .row>div:nth-child(1) h1 
