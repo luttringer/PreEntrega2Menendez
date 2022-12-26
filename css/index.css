@@ -22,12 +22,6 @@ header>nav>ul li:nth-child(1)
     background-repeat: no-repeat;
 }
 
-.presentation_sec .row div h2
-{
-    font-size: 1.3rem;
-    font-weight: 100;
-}
-
 .presentation_sec .row div p
 {
     margin-top: 30px;
@@ -49,7 +43,7 @@ header>nav>ul li:nth-child(1)
 
 .services_sec
 {
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .services_sec article h3
