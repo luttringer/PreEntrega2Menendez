@@ -115,7 +115,7 @@ header>nav ul li a:hover
 /*CSS contacto*/
 .subtitle
 {
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 700;
     margin: 50px 0 10px 30px;
 }
@@ -138,7 +138,6 @@ header>nav ul li a:hover
     height: 55px;
     border: none;
     border-radius: 50%;
-    background-color: #E8E8E8;
 }
 
 #footer_secion>div p 
@@ -158,18 +157,26 @@ header>nav ul li a:hover
 
     #footer_secion>div img 
     {
-        width: 25px;
-        height: 25px;
+        width: 40px;
+        height: 40px;
     }
 
     #footer_secion>div p 
     {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
         font-weight: 700;
+        text-align: center;
+        margin-top: 30px;
     }
 
     .banner_top .row>div:nth-child(1) h1 
     {
         font-size: 1rem;
+    }
+
+    .subtitle, .banner_top .row>div:nth-child(1) h1 
+    {
+        text-align: center;
+        margin: 50px 0 0 0;
     }
 }

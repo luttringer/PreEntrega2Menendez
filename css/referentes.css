@@ -2,6 +2,7 @@
 header>nav>ul li:nth-child(2)
 {
     font-weight: 600;
+    color: #00ACE2;
 }
 
 /*CSS nuestro equipo*/
@@ -13,7 +14,7 @@ header>nav>ul li:nth-child(2)
     position: relative;
     display: grid;
     grid-template-columns: repeat(3,20vw);
-    grid-template-rows: repeat(2,30vwvw);
+    grid-template-rows: repeat(2,30vw);
     justify-content: space-around;
     align-content: center;
     row-gap: 30px;
@@ -95,5 +96,32 @@ header>nav>ul li:nth-child(2)
 .grid_our_team>div:nth-child(6)>img
 {
     background-image: url("https://www.dirtyrock.info/wp-content/uploads/2013/04/Muddy-Waters-98-a%C3%B1os-de-electricidad-y-Blues-primitivo-en-Stovall-1170x1467.jpg");
+}
+
+@media (max-width:800px)
+{
+    .grid_our_team
+    {
+        grid-template-columns: repeat(2,40vw);
+        grid-template-rows: repeat(3,auto);
+        row-gap: 30px;
+    }
+
+    .grid_our_team div>img
+    {
+        height: 30vw;
+        width: 30vw;
+    }
+
+    .grid_our_team div
+    {
+        overflow-y:scroll;
+    }
+
+    .grid_our_team div
+    {
+        justify-content: start;
+    }
+
 }
 
