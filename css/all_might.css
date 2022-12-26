@@ -10,20 +10,22 @@ h1,h2,h3,h4,p,li{font-family: 'Inter', sans-serif;} /* GENERAL FONT*/
 header
 {
     width: 100%;
-    background-color: #F0F0F0;
+    background-color: #1f1a17;
     height: 50px;
     position: relative;
 }
 
 header>img 
 {
-    width: 200px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     top: 25px;
     left: 25px;
-    background-color: #F0F0F0;
     position: absolute;
     z-index: 1;
+    background-image: url("../images/logo/29b08f305773d53ee8eaaa0708ae2dea.png");
+    background-position: center;
+    background-size: cover;
 }
 
 header>nav 
@@ -48,11 +50,12 @@ header>nav ul li
     font-size: 0.8rem;
     font-weight: 400;
     cursor: pointer;
+    color: #E6E6E6;
 }
 
 header>nav ul li a 
 {
-    color: black;
+    color: #E6E6E6;
 }
 
 header>nav ul li:hover 
@@ -85,12 +88,26 @@ header>nav ul li a:hover
     justify-content: center;
     align-items: center;
     border-right: 1px solid #F0F0F0;
+    background-image: url("../images/portada_top/jazz-g097b2eb0c_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .banner_top .row>div:nth-child(1) h1 
 {
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333333;
+    text-shadow: 0px 0px 20px #FFFFFF;
+}
+
+.banner_top .row>div:nth-child(2)
+{
+    background-image: url("../images/portada_top/jazz-gf1b0a335a_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -112,6 +129,7 @@ header>nav ul li a:hover
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #1C1C1C;
 }
 
 #footer_secion>div img 
@@ -128,6 +146,7 @@ header>nav ul li a:hover
     font-size: 1.2rem;
     font-weight: 500;
     margin-top: 10px;
+    color: #E6E6E6;
 }
 
 @media (max-width:800px)
@@ -147,5 +166,10 @@ header>nav ul li a:hover
     {
         font-size: 0.5rem;
         font-weight: 700;
+    }
+
+    .banner_top .row>div:nth-child(1) h1 
+    {
+        font-size: 1rem;
     }
 }
