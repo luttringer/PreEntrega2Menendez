@@ -147,6 +147,11 @@ header>nav ul li a:hover
     color: #E6E6E6;
 }
 
+.menu_mobile
+{
+    display: none;
+}
+
 @media (max-width:800px)
 {
     #footer_secion
@@ -176,5 +181,56 @@ header>nav ul li a:hover
     {
         text-align: center;
         margin: 50px 0 0 0;
+    }
+
+    header
+    {
+        position: fixed;
+        z-index: 331;
+    }
+
+    header>nav
+    {
+        width: 70vw;
+        height: 100vh;
+        position: fixed;
+        z-index: 333;
+        background: #1f1a17;;
+        left: 30vw;
+        transform: translateX(70vw);
+        transition: all ease 1.5s;
+    }
+
+    .menu_show
+    {
+        transform: translateX(0);
+    }
+
+    header>nav>ul 
+    {
+        width: 70vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header>img 
+    {
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        left: 25px;
+        top: 25px;
+    }
+
+    .menu_mobile
+    {
+        display: initial;
+        position: fixed;
+        width: 25px;
+        height: 25px;
+        top: 12.5px;
+        right: 12.5px;
+        z-index: 334;
     }
 }
