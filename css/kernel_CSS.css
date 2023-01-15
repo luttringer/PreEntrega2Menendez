@@ -129,4 +129,27 @@
   background-position: center;
 }
 
+/*CSS MOBILE INDEX*/
+@media (max-width: 800px) {
+  .presentation_sec .row div:nth-of-type(2) {
+    height: 300px;
+  }
+  .services_sec .row {
+    margin: 50px 0 50px 0;
+  }
+  .banner_publicidad {
+    width: 90vw;
+    height: 45vw;
+    margin: 5vw;
+  }
+  .services_sec article p {
+    font-size: 0.7rem;
+    max-height: 150px;
+    overflow-y: scroll;
+  }
+  .services_sec article h3 {
+    font-size: 0.7rem;
+  }
+}
+
 /*# sourceMappingURL=kernel_CSS.css.map */
