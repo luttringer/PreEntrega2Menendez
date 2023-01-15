@@ -1,0 +1,11 @@
+@mixin menu_li_positioned
+{
+    font-weight: 600;
+    color: $color-page-menu;
+}
+
+@mixin article_text_corpse($weight)
+{
+    font-size: 1rem;
+    font-weight: $weight;
+}

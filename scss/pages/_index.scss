@@ -1,0 +1,98 @@
+/*CSS indicacion posicion en menu*/
+#menu
+{
+    ul 
+    {
+        li:nth-child(1) 
+        {
+            @include menu_li_positioned();
+        }
+    }
+}
+
+/*CSS seccion de presentacion*/
+.presentation_sec
+{
+    margin-top: 60px;
+
+    .row 
+    {
+        div:nth-of-type(2)
+        {
+            border: 1px solid #E8E8E8;
+            background-image: url("https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1919/https://www.musicalortiz.com/wp-content/uploads/2021/04/Origen-del-jazz.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        div 
+        {
+            p 
+            {
+                margin-top: 30px;
+                font-size: 0.8rem;
+                font-weight: 300;
+                letter-spacing: 0.5px;
+                word-spacing: 6px;
+            }
+        }
+    }
+}
+
+/*CSS articulos */
+.services_sec
+{
+    margin-top: 100px;
+    
+    article 
+    {
+        h3 
+        {
+            @include article_text_corpse(500);
+            margin-bottom: 15px;
+        }
+
+        p 
+        {
+            @include article_text_corpse(200);
+            padding-left: 30px;
+        }
+
+        button 
+        {
+            width: 130px;
+            height: 30px;
+            border: none;
+            float: right;
+            color: white;
+            background-color: #00ACE2;
+            font-weight: 600;
+
+            &::hover 
+            {
+                -webkit-animation: jello-horizontal 0.9s both;
+	            animation: jello-horizontal 0.9s both;
+            }
+        }
+    }
+
+    .row 
+    {
+        margin-bottom: 50px;
+    }
+}
+
+/* CSS imagen publicidad*/
+.banner_publicidad
+{
+    position: relative;
+    display: block;
+    width: 90vw;
+    margin: 55px 0 55px 5vw;
+    height: 15vw;
+    background-image: url("../images/banner_inicio/jazz-gc4a717b77_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
