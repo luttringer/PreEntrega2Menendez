@@ -108,7 +108,7 @@
   background-color: #00ACE2;
   font-weight: 600;
 }
-.services_sec article button::hover {
+.services_sec article button:hover {
   -webkit-animation: jello-horizontal 0.9s both;
   animation: jello-horizontal 0.9s both;
 }
