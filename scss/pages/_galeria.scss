@@ -9,7 +9,6 @@
         }
     }
 }
-
 /*CSS galeria*/
 .gallery
 {
@@ -17,9 +16,7 @@
     height: auto;
     position: relative;
     display: grid;
-    grid-template-columns: repeat(3, 25vw);
-    grid-template-rows: repeat(4, 25vw);
-    grid-gap: 3px;
+    @include gallery_gri_config(3,25vw,4,25vw,3px);
     justify-content: center;
     align-content: center;
     margin-top: 40px;
@@ -35,5 +32,17 @@
 
 @media(max-width:1100px)
 {
-    
+    .gallery
+    {
+        @include gallery_gri_config(1,90vw,12,90vw,3px);
+
+        align-items: center;
+        justify-items: center;
+
+        img 
+        {
+            width: 80vw;
+            height: 80vw;
+        }
+    }
 }

@@ -15,3 +15,10 @@
     background-image: $img_url;
     background-position: $direction;  
 }
+
+@mixin gallery_gri_config($col,$col_width,$row,$row_height,$gap)
+{
+    grid-template-columns: repeat($col, $col_width);
+    grid-template-rows: repeat($row, $row_height);
+    grid-gap: $gap;
+}

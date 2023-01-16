@@ -473,6 +473,19 @@ header nav ul li:hover {
   object-fit: cover;
 }
 
+@media (max-width: 1100px) {
+  .gallery {
+    grid-template-columns: repeat(1, 90vw);
+    grid-template-rows: repeat(12, 90vw);
+    grid-gap: 3px;
+    align-items: center;
+    justify-items: center;
+  }
+  .gallery img {
+    width: 80vw;
+    height: 80vw;
+  }
+}
 /*CSS indicacion posicion en menu*/
 #menu ul li:nth-child(4) {
   font-weight: 600;
