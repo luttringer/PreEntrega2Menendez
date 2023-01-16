@@ -285,7 +285,7 @@ header nav ul li:hover {
 .services_sec {
   margin-top: 100px;
 }
-.services_sec article h3 {
+.services_sec article h3, .services_sec article .grid_our_team div h4, .grid_our_team div .services_sec article h4 {
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: 15px;
@@ -344,7 +344,7 @@ header nav ul li:hover {
     max-height: 15vh;
     overflow-y: scroll;
   }
-  .services_sec article h3 {
+  .services_sec article h3, .services_sec article .grid_our_team div h4, .grid_our_team div .services_sec article h4 {
     font-size: 0.7rem;
     height: 2vh;
     max-height: 2vh;
@@ -386,45 +386,36 @@ header nav ul li:hover {
   background-size: cover;
   background-position: center;
 }
-.grid_our_team div h3 {
+.grid_our_team div h3, .grid_our_team div h4 {
   margin-top: 20px;
   font-size: 1rem;
+  font-weight: 500;
   text-align: left;
 }
 .grid_our_team div h4 {
-  margin: 10px 0 10px 0;
-  font-size: 1rem;
+  margin-bottom: 10px;
   font-weight: 300;
-  text-align: left;
 }
 .grid_our_team div p {
   font-size: 0.8rem;
   font-weight: 400;
   text-align: left;
 }
-.grid_our_team div:nth-child(1) img {
-  background-image: url("https://www.infobae.com/new-resizer/VPQd-CH_V2PlFfP6BqubfHbI0Tg=/1440x810/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/IVJ63YULBRGOPIWEV5IRI7OGLM.jpg");
-  background-position: none;
+.grid_our_team div img {
+  object-fit: cover;
+  object-position: center;
 }
 .grid_our_team div:nth-child(2) img {
-  background-image: url("https://www.udiscovermusic.com/wp-content/uploads/2019/09/Bessie-Smith-Carl-Van-Vechten-1936.jpg");
-  background-position: right;
+  object-fit: cover;
+  object-position: right;
 }
 .grid_our_team div:nth-child(3) img {
-  background-image: url("https://jazz.fm/app/uploads/Leadbelly_3226624b.jpg");
-  background-position: left;
+  object-fit: cover;
+  object-position: left;
 }
 .grid_our_team div:nth-child(4) img {
-  background-image: url("https://www.arts.gov/sites/default/files/styles/portrait/public/images/Sonny-Rollins-by-John-Abbott-BW.jpg?itok=B-tm8zRE");
-  background-position: right;
-}
-.grid_our_team div:nth-child(5) img {
-  background-image: url("https://www.infobae.com/new-resizer/v06Z54AYutP2ENxroshIRguCrHY=/1440x810/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/07/24170544/John-Coltrane-1957.jpg");
-  background-position: none;
-}
-.grid_our_team div:nth-child(6) img {
-  background-image: url("https://www.dirtyrock.info/wp-content/uploads/2013/04/Muddy-Waters-98-a%C3%B1os-de-electricidad-y-Blues-primitivo-en-Stovall-1170x1467.jpg");
-  background-position: none;
+  object-fit: cover;
+  object-position: right;
 }
 
 @media (max-width: 800px) {
@@ -492,7 +483,7 @@ header nav ul li:hover {
   color: #00ACE2;
 }
 
-.seccion_historia h3 {
+.seccion_historia h3, .seccion_historia .grid_our_team div h4, .grid_our_team div .seccion_historia h4 {
   margin-top: 50px;
   font-size: 1.5rem;
 }

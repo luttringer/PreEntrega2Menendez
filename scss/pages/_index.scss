@@ -19,7 +19,7 @@
     {
         div:nth-of-type(2)
         {
-            border: 1px solid #E8E8E8;
+            border: 1px solid $background-color-gris-two;
             background-image: url("https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1919/https://www.musicalortiz.com/wp-content/uploads/2021/04/Origen-del-jazz.jpg");
             background-position: center;
             background-size: cover;
@@ -66,7 +66,7 @@
             border: none;
             float: right;
             color: white;
-            background-color: #00ACE2;
+            background-color: $color-page-menu;
             font-weight: 600;
 
             &:hover 

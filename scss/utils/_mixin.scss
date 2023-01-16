@@ -10,10 +10,10 @@
     font-weight: $weight;
 }
 
-@mixin referentes_target($img_url, $direction)
+@mixin referentes_target($obj_fit, $obj_pos)
 {
-    background-image: $img_url;
-    background-position: $direction;  
+    object-fit: $obj_fit;
+    object-position: $obj_pos;
 }
 
 @mixin gallery_gri_config($col,$col_width,$row,$row_height,$gap)
@@ -21,4 +21,11 @@
     grid-template-columns: repeat($col, $col_width);
     grid-template-rows: repeat($row, $row_height);
     grid-gap: $gap;
+}
+
+@mixin text_corpse_referentes($size, $weight,$align)
+{
+    font-size: $size;
+    font-weight: $weight;
+    text-align: $align;
 }
