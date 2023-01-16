@@ -6,7 +6,7 @@ header>nav>ul li:nth-child(2)
 }
 
 /*CSS nuestro equipo*/
-.grid_our_team
+/*.grid_our_team
 {
     margin-top: 50px;
     width: 100%;
@@ -66,7 +66,6 @@ header>nav>ul li:nth-child(2)
     background-size: cover;
     background-position: center;
 }
-
 .grid_our_team>div:nth-child(1)>img
 {
     background-image: url("https://www.infobae.com/new-resizer/VPQd-CH_V2PlFfP6BqubfHbI0Tg=/1440x810/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/IVJ63YULBRGOPIWEV5IRI7OGLM.jpg");
@@ -77,6 +76,7 @@ header>nav>ul li:nth-child(2)
     background-image: url("https://www.udiscovermusic.com/wp-content/uploads/2019/09/Bessie-Smith-Carl-Van-Vechten-1936.jpg");
     background-position: right;
 }
+
 
 .grid_our_team>div:nth-child(3)>img
 {
@@ -94,6 +94,7 @@ header>nav>ul li:nth-child(2)
 {
     background-image: url("https://www.infobae.com/new-resizer/v06Z54AYutP2ENxroshIRguCrHY=/1440x810/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/07/24170544/John-Coltrane-1957.jpg");
 }
+
 
 .grid_our_team>div:nth-child(6)>img
 {
@@ -126,5 +127,5 @@ header>nav>ul li:nth-child(2)
         justify-content: start;
     }
 
-}
+}*/
 
