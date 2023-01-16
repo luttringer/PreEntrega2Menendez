@@ -1,0 +1,25 @@
+/*CSS indicacion posicion en menu*/
+#menu
+{
+    ul 
+    {
+        li:nth-child(5) 
+        {
+            @include menu_li_positioned();
+        }
+    }
+}
+
+.video
+{
+    width: 100vw;
+    height: calc(100vh - 50px);
+}
+
+@media(max-width:1100px)
+{
+    *
+    {
+        display: none;
+    }
+}

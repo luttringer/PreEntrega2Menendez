@@ -487,5 +487,21 @@ header nav ul li:hover {
     display: none;
   }
 }
+/*CSS indicacion posicion en menu*/
+#menu ul li:nth-child(5) {
+  font-weight: 600;
+  color: #00ACE2;
+}
+
+.video {
+  width: 100vw;
+  height: calc(100vh - 50px);
+}
+
+@media (max-width: 1100px) {
+  * {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=kernel_CSS.css.map */
