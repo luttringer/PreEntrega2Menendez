@@ -429,18 +429,22 @@ header nav ul li:hover {
 
 @media (max-width: 800px) {
   .grid_our_team {
-    grid-template-columns: repeat(2, 40vw);
-    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(1, 80vw);
+    grid-template-rows: repeat(6, auto);
     row-gap: 30px;
     column-gap: 10px;
   }
   .grid_our_team div {
     overflow-y: scroll;
     justify-content: start;
+    align-items: center;
   }
   .grid_our_team div img {
-    height: 30vw;
-    width: 30vw;
+    height: 60vw;
+    width: 60vw;
+  }
+  .grid_our_team div p {
+    text-align: center;
   }
 }
 /*CSS indicacion posicion en menu*/
