@@ -1,17 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');*/
 
-*{margin:0;padding:0;box-sizing:border-box;} /* CLEAN RULE*/
-a{text-decoration: none;}
-h1,h2,h3,h4,p,li{font-family: 'Inter', sans-serif;} /* GENERAL FONT*/
 
-/*CSS general fondo*/
-body
-{
-    background: #e6e6e6;
-}
 
 /*CSS menu*/
-header
+/*header
 {
     width: 100%;
     background-color: #1f1a17;
@@ -39,8 +31,8 @@ header>nav
     margin-right: 25px;
     line-height: 50px;
     height: 50px;
-}
-
+}*/
+/*
 header>nav ul
 {
     width: auto;
@@ -74,12 +66,12 @@ header>nav ul li a:hover
     transition: 1.5s all ease;
     color: #00ACE2;
     transform: scale(1.05);
-}
+}*/
 
 
 
 /*CSS banner inmediato a menu inicio*/
-.banner_top
+/*.banner_top
 {
     height: 30vh;
     border-bottom: 1px solid #F0F0F0;
@@ -113,19 +105,19 @@ header>nav ul li a:hover
     background-repeat: no-repeat;
     background-position: center;
 }
-
+*/
 
 
 /*CSS contacto*/
-.subtitle
+/*.subtitle
 {
     font-size: 1.3rem;
     font-weight: 500;
     margin: 50px 0 10px 30px;
     text-transform: uppercase;
     color: #4a4a4a;
-}
-
+}*/
+/*
 #footer_secion
 {
     width: 100%;
@@ -157,8 +149,8 @@ header>nav ul li a:hover
 {
     display: none;
 }
-
-@media (max-width:800px)
+*/
+/*@media (max-width:800px)
 {
     #footer_secion
     {
@@ -188,7 +180,6 @@ header>nav ul li a:hover
         text-align: center;
         margin: 50px 0 0 0;
     }
-
     header
     {
         position: fixed;
@@ -239,4 +230,4 @@ header>nav ul li a:hover
         right: 12.5px;
         z-index: 334;
     }
-}
+}*/

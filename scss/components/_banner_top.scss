@@ -1,0 +1,57 @@
+/*CSS banner inmediato a menu inicio*/
+.banner_top
+{
+    height: 30vh;
+    border-bottom: 1px solid #F0F0F0;
+
+    .row 
+    {
+        div:nth-child(1)
+        {
+            height: 30vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-right: 1px solid #F0F0F0;
+            background-image: url("../images/portada_top/jazz-g097b2eb0c_1920.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            h1 
+            {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: #333333;
+                text-shadow: 0px 0px 20px #FFFFFF;
+            }
+        }
+
+        div:nth-child(2) 
+        {
+            background-image: url("../images/portada_top/jazz-gf1b0a335a_1920.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}
+
+@media (max-width:800px)
+{
+    .banner_top 
+    {
+        .row 
+        {
+            div:nth-child(1)
+            {
+                h1 
+                {
+                    font-size: 1rem;
+                    text-align: center;
+                    margin: 50px 0 0 0;
+                }
+            }
+        }
+    }
+}

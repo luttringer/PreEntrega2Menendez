@@ -1,0 +1,57 @@
+#footer_secion
+{
+    width: 100%;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C1C1C;
+
+    div  
+    {
+        img 
+        {
+            width: 55px;
+            height: 55px;
+            border: none;
+            border-radius: 50%;
+        }
+
+        p 
+        {
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-top: 30px;
+            color: #E6E6E6;
+        }
+    }
+}
+
+.menu_mobile
+{
+    display: none;
+}
+
+@media (max-width:800px)
+{
+    #footer_secion
+    {
+        height: 30vh;
+        div 
+        {
+            img 
+            {
+                width: 40px;
+                height: 40px;
+            }
+
+            p 
+            {
+                font-size: 0.7rem;
+                font-weight: 700;
+                text-align: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,118 @@
+header
+{
+    width: 100%;
+    background-color: #1f1a17;
+    height: 50px;
+    position: relative;
+
+    img 
+    {
+        width: 100px;
+        height: 100px;
+        top: 25px;
+        left: 25px;
+        position: absolute;
+        z-index: 1;
+        background-image: url("../images/logo/29b08f305773d53ee8eaaa0708ae2dea.png");
+        background-position: center;
+        background-size: cover;
+    }
+
+    nav 
+    {
+        width: auto;
+        float: right;
+        margin-right: 25px;
+        line-height: 50px;
+        height: 50px;
+
+        ul 
+        {
+            width: auto;
+            display: inline-flex;
+
+            li 
+            {
+                list-style: none;
+                margin-right: 10px;
+                font-size: 0.8rem;
+                font-weight: 400;
+                cursor: pointer;
+                color: #E6E6E6;
+
+                a 
+                {
+                    color: #E6E6E6;
+
+                    &:hover 
+                    {
+                        transition: 1.5s all ease;
+                        color: #00ACE2;
+                        transform: scale(1.05);
+                    }
+                }
+
+                &:hover 
+                {
+                    transition: 1.5s all ease;
+                    color: #00ACE2;
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:800px)
+{
+    header
+    {
+        position: fixed;
+        z-index: 331;
+
+        nav 
+        {
+            width: 70vw;
+            height: 100vh;
+            position: fixed;
+            z-index: 333;
+            background: #1f1a17;;
+            left: 30vw;
+            transform: translateX(70vw);
+            transition: all ease 1.5s;
+
+            ul 
+            {
+                width: 70vw;
+                height: 100vh;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+
+        img 
+        {
+            width: 50px;
+            height: 50px;
+            position: fixed;
+            left: 25px;
+            top: 25px;
+        }
+    }
+
+    .menu_show
+    {
+        transform: translateX(0);
+    }
+
+    .menu_mobile
+    {
+        display: initial;
+        position: fixed;
+        width: 25px;
+        height: 25px;
+        top: 12.5px;
+        right: 12.5px;
+        z-index: 334;
+    }
+}
