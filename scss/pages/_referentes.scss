@@ -1,3 +1,15 @@
+/*CSS indicacion posicion en menu*/
+#menu
+{
+    ul 
+    {
+        li:nth-child(2) 
+        {
+            @include menu_li_positioned();
+        }
+    }
+}
+
 /*CSS nuestro equipo*/
 .grid_our_team
 {
@@ -117,7 +129,7 @@
         {
             overflow-y:scroll;
             justify-content: start;
-            
+
             img 
             {
                 height: 30vw;
