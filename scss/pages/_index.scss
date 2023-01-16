@@ -133,13 +133,16 @@
             p 
             {
                 font-size: 0.7rem;
-                max-height: 150px;
+                height: 15vh;
+                max-height: 15vh;
                 overflow-y: scroll;
             }
 
             h3 
             {
                 font-size: 0.7rem;
+                height: 2vh;
+                max-height: 2vh;
             }
         }   
     }
