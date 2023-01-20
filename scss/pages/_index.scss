@@ -90,11 +90,9 @@
     display: block;
     width: 90vw;
     margin: 55px 0 55px 5vw;
-    height: 15vw;
-    background-image: url("../images/banner_inicio/jazz-gc4a717b77_1920.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    height: 30vw;
+    object-fit: cover;
+    object-position: center;
 }
 
 /*CSS MOBILE INDEX*/
@@ -115,7 +113,7 @@
     {
         .row 
         {
-            margin: 50px 0 50px 0;
+            margin: 50px 0;
         }
     }
 
