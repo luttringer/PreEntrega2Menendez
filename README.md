@@ -28,6 +28,7 @@ El sitio web desarrollado cuenta con 5 principales secciones:
 
 
 
+
 ## Tech
 
 Se trabajo con las siguientes tecnologías:
@@ -38,6 +39,7 @@ Se trabajo con las siguientes tecnologías:
 - [Bootstrap]
 - [AOS]
 - [Animista]
+- [SASS]
 
 
    [JavaScript]: <https://www.javascript.com/>
@@ -46,3 +48,4 @@ Se trabajo con las siguientes tecnologías:
    [Animista]: <https://animista.net/>
    [vinculo sitemap]: <https://github.com/luttringer/PreEntrega2Menendez/blob/main/sitemap.xml>
    [vinculo minify CSS]: <https://www.toptal.com/developers/cssminifier>
+   [SASS]: <https://sass-lang.com/>
