@@ -1,0 +1,24 @@
+{
+  "name": "preentrega3menendez",
+  "version": "3.0.0",
+  "description": "proyecto final de curso, carrera full stack cogit aderhouse. sitio web sobre Jazz y Blues desarrollado con tecnologia Bootstrap, SASS y estandares de la WC3. ",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch scss/main.scss css/kernel_CSS.css",
+    "galeano": "echo Creo que hay que pelear contra el miedo, que se debe asumir que la vida es peligrosa y que eso es lo bueno que la vida tiene para que no se convierta en un mortal aburrimiento."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luttringer/PreEntrega2Menendez.git"
+  },
+  "author": "Christian Menendez Luttringer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luttringer/PreEntrega2Menendez/issues"
+  },
+  "homepage": "https://github.com/luttringer/PreEntrega2Menendez#readme",
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "bootstrap": "^5.3.0-alpha1"
+  }
+}
