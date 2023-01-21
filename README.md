@@ -1,4 +1,4 @@
-# SITIO WEB CHRISTIAN MENENDEZ LUTTRINGER
+# BLUES & JAZZ WEBPAGE
 ## Oda al Blues & Jazz.
 ![foto de cabecera](<https://upload.wikimedia.org/wikivoyage/en/a/ab/Jazz_DOTM_Banner_1.jpg>)
 
@@ -15,12 +15,16 @@ El sitio web desarrollado cuenta con 5 principales secciones:
 
 ## Algunas consideraciones
 
-- tanto las pages de inicio como referentes son responsive
-- las pages no responsive no se visualizan en mobile (display:none)
+- todas las pages son responsive
 - las tecnicas responsive utilizadas varian entre Bootstrap, Flexbox y Grid (solo para utilizar todo)
 - se utilizan animaciones de Animista
 - se desarrollo un menu de navegacion interactivo que mediante JavaScript anima su desplazamiento de vista
 - se implementa framework AOS para determinadas animaciones
+- el sitio web cuenta con meta tags configurados para Google, Facebook y Twitter
+- el sitio web tiene configurado su package.json correctamente
+- se trabaja con imagenes optimizadas, con loading lazy y bajo extensiones de ultima generacion 
+- se encuentra configurado el sitemap del sitio [vinculo sitemap] 
+- el CSS trabajado se encuentra optimizado bajo los estandares de [vinculo minify CSS] (se reduce un 30% el peso total del archivo)
 
 
 
@@ -40,3 +44,5 @@ Se trabajo con las siguientes tecnologías:
    [Bootstrap]: <https://getbootstrap.com/>
    [AOS]: <https://michalsnik.github.io/aos/>
    [Animista]: <https://animista.net/>
+   [vinculo sitemap]: <https://github.com/luttringer/PreEntrega2Menendez/blob/main/sitemap.xml>
+   [vinculo minify CSS]: <https://www.toptal.com/developers/cssminifier>
