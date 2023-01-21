@@ -51,7 +51,3 @@ Se trabajo con las siguientes tecnologías:
    [Bootstrap]: <https://getbootstrap.com/>
    [AOS]: <https://michalsnik.github.io/aos/>
    [Animista]: <https://animista.net/>
-   [vinculo sitemap]: <https://github.com/luttringer/PreEntrega2Menendez/blob/main/sitemap.xml>
-   [vinculo minify CSS]: <https://www.toptal.com/developers/cssminifier>
-   [SASS]: <https://sass-lang.com/>
-   
