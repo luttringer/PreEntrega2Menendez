@@ -495,4 +495,9 @@ header nav ul li:hover {
   height: calc(100vh - 50px);
 }
 
+/*CSS para esconder scroll en sitio*/
+.actualidad_hidd {
+  overflow: hidden;
+}
+
 /*# sourceMappingURL=kernel_CSS.css.map */
