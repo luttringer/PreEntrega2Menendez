@@ -51,3 +51,4 @@ Se trabajo con las siguientes tecnologías:
    [Bootstrap]: <https://getbootstrap.com/>
    [AOS]: <https://michalsnik.github.io/aos/>
    [Animista]: <https://animista.net/>
+   [SASS]: <https://sass-lang.com/>
