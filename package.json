@@ -1,7 +1,7 @@
 {
   "name": "preentrega3menendez",
   "version": "3.0.0",
-  "description": "proyecto final de curso, carrera full stack cogit aderhouse. sitio web sobre Jazz y Blues desarrollado con tecnologia Bootstrap, SASS y estandares de la WC3. ",
+  "description": "proyecto final de curso, carrera full stack cogit aderhouse. sitio web sobre Jazz y Blues desarrollado con tecnologia Bootstrap, framework AOS, SASS y estandares de la WC3. ",
   "main": "index.js",
   "scripts": {
     "watch": "sass --watch scss/main.scss css/kernel_CSS.css",
