@@ -41,6 +41,11 @@ Se trabajo con las siguientes tecnologías:
 - [Animista]
 - [SASS]
 
+## public bugs && fails
+- la palabra "contacto" del menu pareceria tener una tipografia distinta, o su weight. 
+- se puede mejorar la vista mobile de la page actualidad
+- las redes sociales del contacto no vinculan a nada
+- hay que agregar algun reproductor en alguna page
 
    [JavaScript]: <https://www.javascript.com/>
    [Bootstrap]: <https://getbootstrap.com/>
