@@ -16,10 +16,9 @@
     height: calc(100vh - 50px);
 }
 
-/*CSS para esconder scroll en sitio*/
-.actualidad_hidd
+body 
 {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 @media(max-width:1100px)

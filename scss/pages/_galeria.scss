@@ -13,7 +13,6 @@
 .gallery
 {
     width: 100%;
-    height: auto;
     position: relative;
     display: grid;
     @include gallery_gri_config(3,25vw,4,25vw,3px);
