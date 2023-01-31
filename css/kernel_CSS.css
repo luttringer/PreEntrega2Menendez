@@ -293,7 +293,7 @@ header nav ul li:hover {
   font-weight: 200;
   padding-left: 30px;
 }
-.services_sec article button {
+.services_sec article a {
   width: 130px;
   height: 30px;
   border: none;
@@ -301,8 +301,9 @@ header nav ul li:hover {
   color: white;
   background-color: #00ACE2;
   font-weight: 600;
+  text-align: center;
 }
-.services_sec article button:hover {
+.services_sec article a:hover {
   -webkit-animation: jello-horizontal 0.9s both;
   animation: jello-horizontal 0.9s both;
 }
